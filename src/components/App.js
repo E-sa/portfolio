@@ -24,12 +24,12 @@ export default class App extends React.Component {
             <AppAbout />
           </Route>
 
-            {/* 
+            {
           <Route path="">
             <Navigator />
             <AppAbout />
           </Route>
-           */}
+          }
            
         </Switch>
       </BrowserRouter>
