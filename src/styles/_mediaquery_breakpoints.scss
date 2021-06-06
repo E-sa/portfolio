@@ -1,0 +1,92 @@
+@media only screen and (max-width: 580px) {
+  .navigator {
+    position: absolute;
+    width: 100vw;
+    height: 20vh;
+  }
+
+  .navigator-li-image {
+    display: none;
+  }
+
+  #gitIcon-container {
+    display: none;
+  }
+
+  .navigator-a-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    justify-content: space-around;
+  }
+
+  .main {
+    position: absolute;
+    top: 19vh;
+    width: 100vw;
+    display: inline;
+    background-image: linear-gradient(
+      to top,
+      #f7f2ef,
+      #fae6d8,
+      #fbdac1,
+      #f9cfaa,
+      #f6c492
+    );
+  }
+
+  .card-container {
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+  }
+
+  .projects-container {
+    justify-content: center;
+    border: none;
+    padding: 0;
+    align-items: baseline;
+  }
+
+  .card-image {
+    width: 68vw;
+    height: 25vh;
+  }
+
+  .card-details {
+    width: 60vw;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+  }
+
+  #about-p {
+    border: none;
+    padding: 0;
+  }
+
+  // [class*="slideShow-button-"] {
+  //   position: absolute;
+  //   height: 50vh;
+  //   width: 30px;
+  //   background-color: transparent;
+  //   border-radius: 0;
+    
+  // }
+
+  // .slideShow-button-right {
+  //   right: 0;
+  //   -webkit-box-shadow: inset -50px -3px 50px -30px rgba(132, 73, 71, 0.25);
+  //   box-shadow: inset -50px -3px 50px -30px rgba(132, 73, 71, 0.25);
+  // }
+  // .slideShow-button-left {
+  //   left: 0;
+  //   -webkit-box-shadow: inset 50px -3px 50px -30px rgba(132, 73, 71, 0.25);
+  //   box-shadow: inset 50px -3px 50px -30px rgba(132, 73, 71, 0.25);
+  // }
+}

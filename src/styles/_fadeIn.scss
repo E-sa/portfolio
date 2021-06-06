@@ -1,0 +1,52 @@
+.fade-in {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  margin-top: 40px;
+}
+
+@keyframes fadeIn {
+  0% {
+    margin-top: 0;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 40px;
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

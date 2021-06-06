@@ -1,0 +1,61 @@
+@font-face {
+  font-family: cardFont;
+  src: url(../font/BadScript-Regular.ttf);
+}
+
+.projects-container {
+  border: 3px solid #844947;
+  padding: 20vh 5vh;
+  display: flex;
+  flex-direction: row;
+  font-family: cardFont;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 30px;
+  height: 14vw;
+  transition: transform 0.2s;
+
+  &:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1);
+  }
+}
+
+.card-image {
+  width: 15vw;
+  height: 14vw;
+  box-sizing: border-box;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  width: 22vw;
+  padding: 10px 20px;
+}
+
+.madeWith-items-container {
+  display: flex;
+
+  li {
+    margin: 0 5px;
+  }
+}
+
+// [class*="slideShow-button-"] {
+//   width: 40px;
+//   height: 60px;
+// }
+

@@ -1,0 +1,31 @@
+@import "navigator";
+@import "main";
+@import "about";
+@import "projects";
+@import "fadeIn";
+@import "gitIcon";
+@import "_mediaquery_breakpoints";
+
+
+
+
+@font-face {
+    font-family: myFont;
+    src: url(../font/Tangerine-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #3E1D14;
+}
+
+
+
+body{
+    font-family: myFont;
+}
+
+ul{
+    list-style-type:none;
+}
