@@ -26,11 +26,11 @@ export const ProjectsCardDetails = [
     ],
     
         [
-        calculus,
-        "Calculus",
+        calculator,
+        "calculator",
         "https://objective-wilson-c6140c.netlify.app/",
         "https://github.com/E-sa/calculator",
-        ["React", "SASS"]
+        ["React", "SASS", "styled-component"]
     ],
 
     [
