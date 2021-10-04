@@ -10,7 +10,7 @@ import todo from '../images/todo.png';
 
 export const ProjectsCardDetails = [
         [
-        Todo,
+        todo,
         "todo list",
         "https://todo-app-eight-khaki.vercel.app/",
         "https://github.com/E-sa/Todo-App",
