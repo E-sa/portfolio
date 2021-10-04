@@ -4,11 +4,18 @@ import countries from '../images/countries.png';
 import psd1 from '../images/psd1.png'; 
 import psd2 from '../images/psd2.png'; 
 import RockPaperSci from '../images/RockPaperSci.png';
-import urlShorten from '../images/url-shorten.png'; 
 import calculator from '../images/calculator.jpg'; 
+import todo from '../images/todo.png'; 
 
 
 export const ProjectsCardDetails = [
+        [
+        Todo,
+        "todo list",
+        "https://todo-app-eight-khaki.vercel.app/",
+        "https://github.com/E-sa/Todo-App",
+        ["React", "SASS", "flex-box"]
+    ],
     [
         countries,
         "countries API",
@@ -16,15 +23,7 @@ export const ProjectsCardDetails = [
         "https://github.com/E-sa/countries-rest",
         ["React", "Axios", "SASS"]
     ],
-    
-    [
-        urlShorten,
-        "URL shortening API",
-        "https://react-url-shortening-api.vercel.app/",
-        "https://github.com/E-sa/React-URL-shortening-api",
-        ["React"]
-    ],
-    
+      
         [
         calculator,
         "calculator",
