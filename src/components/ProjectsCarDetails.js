@@ -5,7 +5,7 @@ import psd1 from '../images/psd1.png';
 import psd2 from '../images/psd2.png'; 
 import RockPaperSci from '../images/RockPaperSci.png';
 import calculator from '../images/calculator.jpg'; 
-import todo from '../images/todo.jpg'; 
+import todo from '../images/todo.png'; 
 
 
 export const ProjectsCardDetails = [
