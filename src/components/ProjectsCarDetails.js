@@ -12,9 +12,9 @@ export const ProjectsCardDetails = [
         [
         todo,
         "todo list",
-        "https://todo-app-eight-khaki.vercel.app/",
-        "https://github.com/E-sa/Todo-App",
-        ["React", "SASS", "flex-box"]
+        "https://to-do-redux-gamma.vercel.app/",
+        "https://github.com/E-sa/ToDo---redux",
+        ["React", "SASS", "flex-box", "Redux"]
     ],
     [
         countries,
