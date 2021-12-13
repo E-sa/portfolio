@@ -32,13 +32,7 @@ export const ProjectsCardDetails = [
         ["React", "SASS", "styled-component"]
     ],
 
-//     [
-//         clock,
-//         "Clock",
-//         "https://j-query-practice.vercel.app/",
-//         "https://github.com/E-sa/jQuery-practice",
-//         ["jQuery"]
-//     ],
+
 
     [
         psd1,
