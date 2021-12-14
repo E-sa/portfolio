@@ -16,13 +16,13 @@ export const ProjectsCardDetails = [
         "https://github.com/E-sa/ToDo---redux",
         ["React", "SASS", "flex-box", "Redux"]
     ],
-    [
-        countries,
-        "countries API",
-        "https://countries-rest-liard.vercel.app/",
-        "https://github.com/E-sa/countries-rest",
-        ["React", "Axios", "SASS"]
-    ],
+//     [
+//         countries,
+//         "countries API",
+//         "https://countries-rest-liard.vercel.app/",
+//         "https://github.com/E-sa/countries-rest",
+//         ["React", "Axios", "SASS"]
+//     ],
       
         [
         calculator,
