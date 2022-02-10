@@ -6,6 +6,7 @@ import psd2 from '../images/psd2.png';
 import RockPaperSci from '../images/RockPaperSci.png';
 import calculator from '../images/calculator.jpg'; 
 import todo from '../images/todo.png'; 
+import ecommerce from '../images/ecommerce-product-page.jpg';
 
 
 export const ProjectsCardDetails = [
@@ -57,4 +58,12 @@ export const ProjectsCardDetails = [
         "https://github.com/E-sa/Rock_Paper_Scissors",
         ["React"]
     ],
+    [
+        ecommerce,
+        "e-commerce product picture"
+        "https://ecommerce-product-page-henna.vercel.app/",
+        "https://github.com/E-sa/E-commerce-product-page",
+        ["React - redux - bootstrap"]
+    ],
+
 ]
