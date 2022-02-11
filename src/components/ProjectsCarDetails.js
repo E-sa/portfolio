@@ -60,7 +60,7 @@ export const ProjectsCardDetails = [
     ],
     [
         ecommerce,
-        "e-commerce product picture"
+        "e-commerce product picture",
         "https://ecommerce-product-page-henna.vercel.app/",
         "https://github.com/E-sa/E-commerce-product-page",
         ["React - redux - bootstrap"]
