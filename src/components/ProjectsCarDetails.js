@@ -7,7 +7,7 @@ import RockPaperSci from '../images/RockPaperSci.png';
 import calculator from '../images/calculator.jpg'; 
 import todo from '../images/todo.png'; 
 import ecommerce from '../images/ecommerce-product-page.jpg';
-
+import commentSection from '../images/comment-section.png';
 
 export const ProjectsCardDetails = [
         [
@@ -64,6 +64,13 @@ export const ProjectsCardDetails = [
         "https://ecommerce-product-page-henna.vercel.app/",
         "https://github.com/E-sa/E-commerce-product-page",
         ["React - redux - bootstrap"]
+    ],
+    [
+        commentSection,
+        "interactive comment Section",
+        "https://interactive-comments-section-lac.vercel.app/",
+        "https://github.com/E-sa/Interactive-comments-section",
+        ["React - Typescript"]
     ],
 
 ]
